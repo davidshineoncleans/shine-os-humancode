@@ -71,8 +71,20 @@ For nine more translations at that grain, plus the extended dialect moves (inten
 | [`REFERENCE.md`](./REFERENCE.md) | Master reference — symbol set, dialect, companion-file format, origin |
 | [`SKILL.md`](./SKILL.md) | Deployable Claude skill — drop into `.claude/skills/humancode/` and invoke |
 | [`Canonical-Examples.md`](./Canonical-Examples.md) | Twenty worked translations by the creator — the spec-in-practice |
-| [`examples/`](./examples/) | Representative `.hc.md` files: session report companion, voice profile, system spec |
+| [`examples/`](./examples/) | Representative `.hc.md` files — operational, personal, professional |
 | [`LICENSE`](./LICENSE) | MIT |
+
+### Inside `examples/`
+
+| Pair | Source | What it shows |
+|------|--------|---------------|
+| `session-report.hc.md` | (companion only) | Compressed audit trail for a fictional product launch prep session |
+| `voice-profile.hc.md` | (companion only) | Voice + identity + response patterns for an AI support agent |
+| `system-spec.hc.md` | (companion only) | A system architecture spec — stack, flow, data contracts, failure modes |
+| `journal-fragment.md` + `.hc.md` | Personal dictation by the author on the psychology of truth-telling | HumanCode preserving emotional and psychological charge through long-form personal prose |
+| `email-investor-note.md` + `.hc.md` | Real long-form note from the founder to a prospective investor (Jun 2025) | HumanCode applied to high-stakes, high-density professional correspondence — competitive analysis, candid personal vision-reveal, two funding tracks, an explicit ask. The dual-version pattern lets a busy investor (or their inbox-triage AI) take the structural pitch in two minutes while the prose preserves the founder's voice exactly as written |
+
+The `journal-fragment` and `email-investor-note` pairs are the load-bearing ones. They're real writing by the creator — one personal, one professional — published together with their HumanCode companions so you can see exactly what the encoding preserves and what it tightens. If you're sceptical about the "preserves emotional charge" or "preserves complex strategic argument" claims, those two pairs are where to test them.
 
 ---
 
