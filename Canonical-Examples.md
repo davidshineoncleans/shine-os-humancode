@@ -352,12 +352,12 @@ Moves: `If(...) Then_WE_` explicit consequence; `<=48hrsOld` ASCII-safe comparis
 
 Source:
 
-> I'll take the consultancy gig only if it pays enough to cover the mortgage arrears AND doesn't pull me off the public release.
+> I'll take the consultancy gig only if it pays enough AND doesn't pull me off the public release.
 
 HumanCode:
 
 ```
-ConsultancyGig_Accept_IF: Pay>Arrears & DoesNotBlock_PublicRelease
+ConsultancyGig_Accept_IF: Pay>Enough & DoesNotBlock_PublicRelease
 ```
 
 Moves: `_Accept_IF:` compound condition-as-label; `&` as AND conjunction (typable cousin of `+`); `DoesNotBlock_` as negated-action prefix.
